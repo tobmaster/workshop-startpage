@@ -30,8 +30,33 @@ a {
     color: rgb(0, 108, 249);
 }
 
+code:before {
+    content: "$ ";
+    color: orange;
+}
+
+code:after {
+    content: "_";
+    font-weight: bolder;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
 code {
     background-color: #000;
     color: #fff;
-    padding: 1em 1.5em;
+    padding: 0.5em 0.5em;
+    width: 100%;
+    display: block;
+}
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }
