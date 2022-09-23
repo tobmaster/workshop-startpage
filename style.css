@@ -38,8 +38,8 @@ code:before {
 code:after {
     content: "_";
     font-weight: bolder;
-    animation: blink-animation 1s cubic-bezier(0.48, 0.18, 0.4, 0.71) infinite;
-    -webkit-animation: blink-animation 1s cubic-bezier(0.48, 0.18, 0.4, 0.71) infinite;
+    animation: blink-animation 1s ease-out alternate-reverse;
+    -webkit-animation: blink-animation 1s ease-out alternate-reverse;
 }
 
 code {
