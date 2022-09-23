@@ -38,8 +38,8 @@ code:before {
 code:after {
     content: "_";
     font-weight: bolder;
-    animation: blink-animation 1s ease infinite;
-    -webkit-animation: blink-animation 1s ease infinite;
+    animation: blink-animation 1s cubic-bezier(0.48, 0.18, 0.4, 0.71) infinite;
+    -webkit-animation: blink-animation 1s cubic-bezier(0.48, 0.18, 0.4, 0.71) infinite;
 }
 
 code {
@@ -52,11 +52,11 @@ code {
 
 @keyframes blink-animation {
     to {
-      opacity: 0;
+      opacity: 1;
     }
   }
 @-webkit-keyframes blink-animation {
     to {
-        opacity: 1;
+        opacity: 0.1;
     }
 }
