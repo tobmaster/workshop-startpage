@@ -3,6 +3,10 @@
     font-size: 2vw;
 }
 
+body {
+    padding: 0.2em 1.5em;
+}
+
 h1, h2 {
     font-size: 4.5vw;
 }
@@ -14,7 +18,7 @@ h3 {
 ul > li {
     list-style: none;
     list-style-position: outside;
-    margin: auto 0;
+    padding: auto 0;
 }
 
 a {
