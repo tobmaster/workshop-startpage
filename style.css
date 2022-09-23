@@ -52,11 +52,11 @@ code {
 
 @keyframes blink-animation {
     to {
-      visibility: hidden;
+      opacity: 0;
     }
   }
 @-webkit-keyframes blink-animation {
     to {
-        visibility: hidden;
+        opacity: 1;
     }
 }
