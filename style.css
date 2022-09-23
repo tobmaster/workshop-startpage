@@ -15,10 +15,13 @@ h3 {
     font-size: 3vw;
 }
 
+ul {
+    padding: auto 0;
+}
+
 ul > li {
     list-style: none;
     list-style-position: outside;
-    padding: auto 0;
 }
 
 a {
