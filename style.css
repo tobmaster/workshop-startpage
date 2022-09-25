@@ -41,4 +41,5 @@ code {
     padding: 0.5em 0.5em;
     width: 100%;
     display: block;
+    font-family: monospace;
 }
