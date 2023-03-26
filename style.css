@@ -28,6 +28,10 @@ ul > li {
     list-style-position: outside;
 }
 
+table td {
+    padding: 0 0.2rem 0 0;
+}
+
 a {
     font-size: 3vw;
     text-decoration: none;
